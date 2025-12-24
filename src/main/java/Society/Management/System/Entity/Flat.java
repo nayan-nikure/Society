@@ -15,7 +15,7 @@ public class Flat {
 
     @ManyToOne
     @JoinColumn(name = "society_id")
-    private Society society;
+
 
     @OneToMany(mappedBy = "flat", cascade = CascadeType.ALL)
     private List<Resident> residents;
@@ -34,14 +34,6 @@ public class Flat {
 
     public void setFlatNo(String flatNo) {
         this.flatNo = flatNo;
-    }
-
-    public Society getSociety() {
-        return society;
-    }
-
-    public void setSociety(Society society) {
-        this.society = society;
     }
 
     public List<Resident> getResidents() {

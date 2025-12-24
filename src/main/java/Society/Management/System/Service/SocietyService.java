@@ -40,7 +40,6 @@ public class SocietyService {
             societyResponse.setId(society.getId());
             societyResponse.setName(society.getName());
             societyResponse.setAddress(society.getAddress());
-            societyResponse.setAddress(society.getAddress());
             responses.add(societyResponse);
         }
         return responses;

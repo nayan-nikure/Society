@@ -1,4 +1,4 @@
-package gite.Management.System.Entity;
+package Society.Management.System.Entity;
 
 import Society.Management.System.Entity.Flat;
 import jakarta.persistence.*;
